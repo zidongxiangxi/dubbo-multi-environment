@@ -1,4 +1,4 @@
-package com.xdchen.dubbo.multi.env.remote.zookeeper;
+package com.xdchen.dubbo.multi.env.remoting.zookeeper;
 
 import com.xdchen.dubbo.multi.env.constant.ApplicationVersionConstants;
 import org.apache.dubbo.common.URL;
