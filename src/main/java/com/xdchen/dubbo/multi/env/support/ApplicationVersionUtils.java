@@ -1,5 +1,6 @@
 package com.xdchen.dubbo.multi.env.support;
 
+import com.xdchen.dubbo.multi.env.ApplicationEnv;
 import com.xdchen.dubbo.multi.env.constant.ApplicationVersionConstants;
 import org.springframework.util.StringUtils;
 
@@ -19,7 +20,7 @@ public class ApplicationVersionUtils {
     }
 
     public static String getSelfVersion() {
-        String version = ApplicationVersionConstants.CURRENT_VERSION;
+        String version = ApplicationEnv.APPLICATION_VERSION;
         version = StringUtils.isEmpty(version) ? ApplicationVersionConstants.BASE_VERSION : version;
         return version;
     }
