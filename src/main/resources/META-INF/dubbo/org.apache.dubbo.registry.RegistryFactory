@@ -1,0 +1,1 @@
+multiEnvZookeeper=com.xdchen.dubbo.multi.env.registry.MultiEnvZookeeperRegistryFactory

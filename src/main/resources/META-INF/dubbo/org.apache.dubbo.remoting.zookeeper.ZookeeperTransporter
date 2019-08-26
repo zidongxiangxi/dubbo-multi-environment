@@ -1,1 +1,0 @@
-curator=com.xdchen.dubbo.multi.env.remote.zookeeper.MultiEnvZookeeperTransporterWrapper
