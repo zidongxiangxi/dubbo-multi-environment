@@ -1,0 +1,2 @@
+applicationVersionProviderFilter=com.xdchen.dubbo.multi.env.rpc.filter.ApplicationVersionProviderFilter
+applicationVersionConsumerFilter=com.xdchen.dubbo.multi.env.rpc.filter.ApplicationVersionConsumerFilter

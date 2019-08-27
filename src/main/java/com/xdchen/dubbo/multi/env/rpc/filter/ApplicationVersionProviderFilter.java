@@ -13,7 +13,7 @@ import org.springframework.util.StringUtils;
  * @author chenxudong
  * @date 2019/08/25
  */
-@Activate(group = {Constants.PROVIDER})
+@Activate(group = {"provider"})
 public class ApplicationVersionProviderFilter implements Filter {
     @Override
     public Result invoke(Invoker<?> invoker, Invocation invocation) throws RpcException {
