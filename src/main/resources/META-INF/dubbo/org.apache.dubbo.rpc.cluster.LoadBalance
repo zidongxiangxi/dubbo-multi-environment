@@ -1,1 +1,1 @@
-multienvrandom=com.xdchen.dubbo.multi.env.rpc.loadbalance.MultiEnvLoadBalance
+multiEnvRandom=com.xdchen.dubbo.multi.env.rpc.loadbalance.MultiEnvLoadBalance

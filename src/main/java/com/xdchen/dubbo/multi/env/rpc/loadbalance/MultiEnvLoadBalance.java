@@ -22,7 +22,7 @@ import java.util.stream.Collectors;
  */
 @Slf4j
 public class MultiEnvLoadBalance extends RandomLoadBalance {
-    public static final String NAME = "multi-env-random";
+    public static final String NAME = "multiEnvRandom";
 
     @Override
     protected <T> Invoker<T> doSelect(List<Invoker<T>> invokers, URL url, Invocation invocation) {
